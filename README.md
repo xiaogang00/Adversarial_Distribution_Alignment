@@ -13,7 +13,7 @@ Our approach is general and applicable to multiple tasks, including image classi
 <img src="./figure/example.png" width="900"/>
 
 
-[paper link](https://jiaya.me/publication/)
+[paper link](https://arxiv.org/abs/2212.05387)
 
 ## Project Setup
 
