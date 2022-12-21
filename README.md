@@ -205,7 +205,7 @@ We provide the script for evaluation, reporting the accuracy on adversarial samp
 You should first modify "VOC_ROOT" and "VOCroot" according to your dataset path.
 "save_path" is the path of trained generator.
 "model_path" is the pretrained model without defense and the generator is trained to protect it.
-"model_black_path" is the pretrained model without defense and adversarial perturbations can be obtained from it.
+"model_black_path" is the pretrained model without defense, adversarial perturbations can be obtained from it.
 
 - Test the model on VOC07+12 to protect SSD
   ```
