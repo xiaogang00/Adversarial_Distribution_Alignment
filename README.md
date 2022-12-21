@@ -126,7 +126,7 @@ We provide the script for evaluation, reporting the miou on adversarial samples.
 You should first modify the "data_root", "test_list", "colors_path", "names_path" according to your dataset path.
 "save_folder" is the path to store the results, "save_path" is the path of trained generator.
 "model_path" for "model" is the pretrained model without defense and the generator is trained to protect it.
-"model_path" for "model_black" is the pretrained model without defense and the adversarial perturbations can be generated from it.
+"model_path" for "model_black" is the pretrained model without defense and adversarial perturbations can be generated from it.
 
 - Test the model on Cityscapes to protect PSPNet
   ```
@@ -138,7 +138,7 @@ We provide the script for evaluation, reporting the miou on adversarial samples.
 You should first modify the "data_root", "test_list", "colors_path", "names_path" according to your dataset path.
 "save_folder" is the path to store the results, "save_path" is the path of trained generator.
 "model_path" for "model" is the pretrained model without defense and the generator is trained to protect it.
-"model_path" for "model_black" is the pretrained model without defense and the adversarial perturbations can be generated from it.
+"model_path" for "model_black" is the pretrained model without defense and adversarial perturbations can be generated from it.
 
 - Test the model on VOC2012 to protect PSPNet
   ```
@@ -159,7 +159,7 @@ We provide the script for evaluation, reporting the accuracy on adversarial samp
 You should first modify "root='../data'" according to your dataset path.
 "save_path" is the path of trained generator.
 "model_path_this" for "model" is the pretrained model without defense and the generator is trained to protect it.
-"model_path_this" for "model_black" is the pretrained model without defense and the adversarial perturbations can be generated from it.
+"model_path_this" for "model_black" is the pretrained model without defense and adversarial perturbations can be generated from it.
 
 - Test the model on CIFAR10 to protect WideResNet
   ```
@@ -172,7 +172,7 @@ We provide the script for evaluation, reporting the accuracy on adversarial samp
 You should first modify "root='../data'" according to your dataset path.
 "save_path" is the path of trained generator.
 "model_path_this" for "model" is the pretrained model without defense and the generator is trained to protect it.
-"model_path_this" for "model_black" is the pretrained model without defense and the adversarial perturbations can be generated from it.
+"model_path_this" for "model_black" is the pretrained model without defense and adversarial perturbations can be generated from it.
 
 - Test the model on CIFAR100 to protect WideResNet
   ```
@@ -185,7 +185,7 @@ We provide the script for evaluation, reporting the accuracy on adversarial samp
 You should first modify "test_dir" according to your dataset path.
 "save_path" is the path of trained generator.
 "model_path_this" for "model" is the pretrained model without defense and the generator is trained to protect it.
-"model_path_this" for "model_black" is the pretrained model without defense and the adversarial perturbations can be generated from it.
+"model_path_this" for "model_black" is the pretrained model without defense and adversarial perturbations can be generated from it.
 
 - Test the model on CIFAR100 to protect WideResNet
   ```
@@ -205,7 +205,7 @@ We provide the script for evaluation, reporting the accuracy on adversarial samp
 You should first modify "VOC_ROOT" and "VOCroot" according to your dataset path.
 "save_path" is the path of trained generator.
 "model_path" is the pretrained model without defense and the generator is trained to protect it.
-"model_black_path" is the pretrained model without defense and the adversarial perturbations can be generated from it.
+"model_black_path" is the pretrained model without defense and adversarial perturbations can be generated from it.
 
 - Test the model on VOC07+12 to protect SSD
   ```
